@@ -5,7 +5,55 @@
     <title>Minha Loja de Perfumes Árabes</title>
     <style>
         body { font-family: 'Segoe UI', sans-serif; background-color: #fdf5e6; color: #4b3621; text-align: center; margin: 0; }
-        header { background-color: #1a1a1a; color: #d4af37; padding: 30px; border-bottom: 5px solid #d4af37; }
+        <section class="banner">
+    <div class="banner-conteudo">
+        <h1>Oud & Essence Brasil</h1>
+        <p>A exclusividade das fragrâncias árabes agora ao seu alcance.</p>
+        <a href="#catalogo" class="botao-banner">Ver Coleção</a>
+    </div>
+</section>
+
+<style>
+    /* Adicione estes estilos dentro da tag <style> */
+    .banner {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                    url('deserto.jpg'); /* Nome da sua imagem de fundo */
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #d4af37;
+    }
+
+    .banner-conteudo h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    }
+
+    .banner-conteudo p {
+        font-size: 1.2em;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .botao-banner {
+        background-color: #d4af37;
+        color: #1a1a1a;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .botao-banner:hover {
+        background-color: #fff;
+        color: #d4af37;
+    }
+</style>
         .catalogo { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
         
         .perfume-card { 
@@ -63,5 +111,6 @@
 </body>
 
 </html>
+
 
 
